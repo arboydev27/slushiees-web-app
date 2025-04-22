@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import { singleProduct } from "@/data";
 import Price from "@/components/Price";
