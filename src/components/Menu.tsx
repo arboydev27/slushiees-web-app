@@ -53,9 +53,7 @@ const Menu = () => {
               Orders
             </Link>
           )}
-          <Link href="/cart">
-            <CartIcon />
-          </Link>
+          <CartIcon />
         </div>
       )}
     </div>
