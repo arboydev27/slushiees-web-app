@@ -1,36 +1,69 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🍕 Pizza Restaurant App
 
-First, run the development server:
+Welcome to the Pizza Restaurant Web App — a sleek, responsive ordering interface for a fictional pizza restaurant, built with the powerful features of Next.js. Learned most of the stuff from a Youtube Channel.
+Open [http://pizzarestaurant.vercel.app](https://pizza-restaurant-app-b3mb.vercel.app/) with your browser to view the project.
 
-```bash
+## 🛠️ Tech Stack
+
+- Frontend Framework: Next.js
+
+- Styling: Tailwind CSS
+
+- Animations & Effects: react-countdown, dynamic imports
+
+- Deployment: Vercel
+
+- Icons & Assets: Custom images and icons for menu and login experiences
+
+## 📦 Features
+
+- 🍕 Dynamic Menu: Each pizza category is clickable and routed dynamically via slugs (e.g., /menu/margherita)
+
+- 🧾 Countdown Offer: Limited-time deals powered by react-countdown
+
+- 📱 Fully Responsive UI: Optimized for both mobile and desktop
+
+- 🔐 Login UI: Clean authentication interface with third-party login buttons (Google & Facebook mock)
+
+- 🎨 Category Cards: Vibrant, scrollable menu sections with background images and hover effects
+
+- 🧭 Client-Side Routing: Seamless transitions using Next.js <Link />
+
+## 🚀 Getting Started
+
+To run the app locally:
+
+```
+# Clone the repo
+git clone https://github.com/arboydev27/pizza_restaurant_app.git
+
+# Navigate to the project folder
+cd pizza-restaurant-app
+
+# Install dependencies
+yarn install
+
+# Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000 in your browser
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Preview
+![Preview 1](images/Preview1.png)
+![Preview 2](public/Preview2.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Notes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is built with modern web dev practices in mind and is structured for easy extension — perfect for adding:
 
-## Learn More
+- A backend for order processing
 
-To learn more about Next.js, take a look at the following resources:
+- A cart system
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- A checkout page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Or CMS-based content management
