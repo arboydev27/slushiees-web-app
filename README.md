@@ -51,7 +51,7 @@ npm run dev
 ```
 
 📸 Preview
-![Preview 1](images/Preview1.png)
+![Preview 1](public/Preview1.png)
 ![Preview 2](public/Preview2.png)
 
 ## 🧠 Notes
