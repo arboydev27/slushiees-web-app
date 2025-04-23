@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## 🍕 Pizza Restaurant App
 
 Welcome to the Pizza Restaurant Web App — a sleek, responsive ordering interface for a fictional pizza restaurant, built with the powerful features of Next.js. Learned most of the stuff from a Youtube Channel.
