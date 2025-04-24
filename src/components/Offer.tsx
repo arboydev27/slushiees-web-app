@@ -16,7 +16,7 @@ const Offer = () => {
   return (
     <div className="bg-gradient-to-b from-amber-200 from-30% to-purple-400 to-50% md:bg-none md:bg-amber-200 h-screen flex flex-col md:flex-row md:justify-between md:h-[70vh]">
       {/*TEXT CONNTAINER*/}
-      <div className="flex-1 flex flex-col justify-center items-center text-center gap-8">
+      <div className="pt-5 px-8 flex-1 flex flex-col justify-center items-center text-center gap-8">
         <h1
           className={`${styleScript.className} text-6xl text-purple-500 font-bold xl:text-6xl`}
         >
