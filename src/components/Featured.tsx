@@ -4,7 +4,7 @@ import { featuredProducts } from "@/data";
 
 const Featured = () => {
   return (
-    <div className="w-screen overflow-x-scroll text-red-500">
+    <div className="w-screen overflow-x-scroll text-purple-500">
       {/*WRAPPER*/}
       <div className="w-max flex">
         {/*SINGLE ITEM */}
@@ -15,7 +15,7 @@ const Featured = () => {
           >
             {/*IMAGE CONTAINER*/}
             {item.img && (
-              <div className="relative flex-1 w-full hover:rotate-[60deg] transition-all duration-500">
+              <div className="relative flex-1 w-full hover:scale-105 hover:saturate-150 transition-all duration-500">
                 <Image src={item.img} alt="" fill className="object-contain" />
               </div>
             )}
@@ -25,8 +25,10 @@ const Featured = () => {
                 {item.title}
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
-              <span className="text-xl font-bold">${item.price}</span>
-              <button className="bg-red-500 text-white p-3 rounded-3xl">
+              <span className="text-xl font-bold">
+                ${item.price.toFixed(2)}
+              </span>
+              <button className="bg-purple-500 text-white p-3 rounded-3xl">
                 Add to Cart
               </button>
             </div>

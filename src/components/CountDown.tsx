@@ -9,7 +9,7 @@ const CountDown = () => {
   return (
     <div>
       <Countdown
-        className="font-bold text-5xl text-yellow-300"
+        className="font-bold text-5xl text-purple-500"
         date={endingDate}
       />
     </div>

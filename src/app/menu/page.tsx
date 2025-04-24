@@ -17,7 +17,7 @@ const MenuPage = () => {
             <p className="text-sm my-8">{category.desc}</p>
             <button
               className={`hidden 2xl:block bg-${category.color} text-${
-                category.color === "black" ? "white" : "red-500"
+                category.color === "black" ? "white" : "purple-500"
               } py-2 px-4 rounded-md`}
 
               // className={`mt-4 border-2 px-4 py-2 rounded-md font-medium bg-white text-${
