@@ -1,7 +1,7 @@
 ## 🥤 Slushiees Web App
 
 Welcome to the Slushiees Web App — a vibrant, responsive ordering interface for a fictional drinks shop, crafted using the power of Next.js.
-Open http://slushies.vercel.app in your browser to explore the project.
+Open http://[slushiees.com](https://slushiees-web-app.vercel.app/) in your browser to explore the project.
 
 ## 🛠️ Tech Stack
 
